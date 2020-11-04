@@ -17,3 +17,11 @@ In this repository, we will work on Time Series Forecasting and Analysis using *
  ***We can skip the Foundation Knowledge as the part of this repository if you are already familiar and done Data Science, Machine Learning or related courses in the past.***
  
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Fundamental Course - Time Series with Pandas**
+
+  * Dataset - [Starbucks.csv](https://github.com/worklifesg/Time-Series-Forecasting-and-Analysis/blob/main/0.%20Datasets%20for%20the%20course/starbucks.csv)
+  * DateTimeIndex (numpy and pandas) -[Notebook](https://github.com/worklifesg/Time-Series-Forecasting-and-Analysis/blob/main/1.%20Fundamental%20Course%20-%20Time%20Series%20with%20Pandas/1_TimeSeriesWithPandas_DateTimeIndex.ipynb)
+  * Time Resampling -[Notebook](https://github.com/worklifesg/Time-Series-Forecasting-and-Analysis/blob/main/1.%20Fundamental%20Course%20-%20Time%20Series%20with%20Pandas/2_TimeSeriesWithPandas_TimeResampling.ipynb)
+  * Time Shifting -[Notebook](https://github.com/worklifesg/Time-Series-Forecasting-and-Analysis/blob/main/1.%20Fundamental%20Course%20-%20Time%20Series%20with%20Pandas/3_TimeSeriesWithPandas_TimeShifting.ipynb)
+  * Rolling & Expanding -[Notebook](https://github.com/worklifesg/Time-Series-Forecasting-and-Analysis/blob/main/1.%20Fundamental%20Course%20-%20Time%20Series%20with%20Pandas/4_TimeSeriesWithPandas_RollingExpanding.ipynb)
