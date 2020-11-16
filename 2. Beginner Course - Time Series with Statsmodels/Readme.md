@@ -82,4 +82,28 @@ Other disadvantages of SMA are:
 
 Mathematical details are given in the notebook.
 
+### 4. Holt Winter Methods
 
+In previous section, we did EWMA and SMA which actually uses one smoothing factor ![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\alpha) but fails to account for other contributing factors like trend and seasonality.
+
+Here we will focus on fitting Holt-WInters model to time series data
+
+<b> Holt Winter seasonal method - forecast equation + 3 smoothing equations</b>
+
+ - Level (![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;l_t)) - ![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\alpha)
+ - trend (![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;b_t)) - ![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\beta)
+ - Seasonal (![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;s_t)) - ![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\gamma)
+ 
+<b>2 Variations: </b>
+ - seasonal variations constant through series (additive method)
+ - seasonal variations changing proportional to level of series (multiplicative method)
+
+HW method allow to add on dowuble and triple exponential smoothing.
+
+#### 4.1 Single Exponential Smoothing (![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\alpha))
+
+![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;y_0&space;=&space;x_0&space;\\y_t&space;=&space;(1&space;-&space;\alpha)&space;y_{t-1}&space;&plus;&space;\alpha&space;x_t&space;)
+
+#### 4.2 Double Exponential Smoothing (Holt's Method - ![1](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\alpha+\beta))
+
+Because we haven't yet considered seasonal fluctuations, the forecasting model is simply a straight sloped line extending from the most recent data point. We'll see an example of this in upcoming lectures.
